@@ -18,7 +18,7 @@ Microsoft SQL Server 2017 (RTM-CU22-GDR) (KB4583457) - 14.0.3370.1 (X64)
 ## Pulling and running the container
 
 ```
-docker run --name contosodatawarehouse -p 1533:1433 ghcr.io/andrewlane/contoso-sql-server-docker/contoso-sql-server:latest
+docker run --name contosodatawarehouse -it -p 1533:1433 ghcr.io/andrewlane/contoso-sql-server-docker/contoso-sql-server:latest
 ```
 
 Wait 2 minutes after the container launches, and then the last line of your container output should start with:
