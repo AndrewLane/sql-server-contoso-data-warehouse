@@ -10,6 +10,9 @@ Database Name: contoso
 User Name: sa
 Password: cortosoDW!
 Port: 1533 (if using the instructions below)
+
+Version:
+Microsoft SQL Server 2017 (RTM-CU22-GDR) (KB4583457) - 14.0.3370.1 (X64)
 ```
 
 ## Pulling and running the container
